@@ -1,75 +1,125 @@
 body{
-	background-color: #004340;
+	background-color: white;
+
 }
 
 h1 {
-	color: #E9E9E9;
+	color: black;
 	font-family: 'Century Gothic', CenturyGothic, sans-serif;
 	text-align: center;
+	font-weight: normal;
 	font-size: 60px;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-
-img {
-	display: block;
-	height: 40%;
-	margin: auto;
-	position: absolute;
-	left: 10%;
-
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-color: black;
+	padding-top:5%;
 	
 }
 
-a {
-	color: #E9E9E9;
-	font-family: 'Century Gothic', CenturyGothic, sans-serif;
-
+#elements_pic{
+	display: block;
+	width: 40%;
+	position: absolute;
+	left: 8%;	
+	top: 41%;
+	
 }
-
-p {
-	color: #E9E9E9;
+#elements .text{
+	font-size: 50px;
+	visibility: hidden;
 	font-family: 'Century Gothic', CenturyGothic, sans-serif;
-	font-size: 25px;
 	text-align: center;
-	padding-left: 475px;
-	padding-right: 50px;
-	padding-top: 75px;
-
+	color:black;
 }
 
 
+#elements_pic:hover {
+  -webkit-filter: blur(5px);
+  
+  
+}
+#elements:hover .text{
+	visibility: visible;
+}
+
+
+#gender {
+	display: block;
+	width: 40%;
+	position: absolute;
+	left: 52%;	
+	top: 41%;
+}
+
+#gender:hover{
+  -webkit-filter: blur(5px);
+}
+#headshot {
+	display: block;
+	width: 25%;
+	position: absolute;
+	left: 7%;	
+	top: 40%;
+	
+}
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    z-index: -1;
+    overflow-x: scroll;
+    right: 5%;
 }
 
 li {
     float: right;
     display: block;
     padding-right: 50px;
-
 }
 
 li a {
     display: block;
-    color: #E9E9E9;
+    color: black;
+    font-family: 'Century Gothic', CenturyGothic, sans-serif;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    border-style: solid;
+    border-width: 2px;
+}
+
+#contact_info {
+	color: black;
+	font-family: 'Century Gothic', Avantgarde, sans-serif;
+	position: fixed;
+	word-spacing: 70px;
+	font-size: 13px;
+	top: 95.5%;
+	left: 2%;
+}		
+#button{
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Century Gothic', CenturyGothic, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+#body {
+	color: black;
+	font-family: 'Century Gothic', Avantgarde, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	display: block;
+	text-align: center;
+	top: 50%;
+	left: 30%;
+	padding-left: 100px;
+	padding-right: 100px;
+	/*overflow-y: scroll;	*/
 }
-/*a {
-    display: block;
-    padding: 8px;
-    background-color: gray;
 
-}*/
+
