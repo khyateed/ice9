@@ -29,7 +29,12 @@ h1 {
 	visibility: hidden;
 	font-family: 'Century Gothic', CenturyGothic, sans-serif;
 	text-align: center;
-	color:black;
+	color:white;
+	display: block;
+	width: 40%;
+	position: absolute;
+	left: 8%;	
+	top: 41%;
 }
 
 
