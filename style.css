@@ -16,50 +16,34 @@ h1 {
 	
 }
 
-#elements_pic{
-	display: block;
+.pic{
 	width: 40%;
-	position: absolute;
-	left: 8%;	
-	top: 41%;
+	padding: 30px 50px;	
+	position: static;
+	z-index: -1;
 	
 }
-#elements .text{
+.caption .text{
 	font-size: 50px;
 	visibility: hidden;
 	font-family: 'Century Gothic', CenturyGothic, sans-serif;
 	text-align: center;
-	color:white;
-	display: block;
-	width: 40%;
+	color: black;
+	
 	position: absolute;
-	left: 8%;	
-	top: 41%;
+	
 }
 
 
-#elements_pic:hover {
+.pic:hover {
   -webkit-filter: blur(5px);
-
-  
-  
 }
-#elements:hover .text{
+
+.caption:hover .text{
 	visibility: visible;
 }
 
 
-#gender {
-	display: block;
-	width: 40%;
-	position: absolute;
-	left: 52%;	
-	top: 41%;
-}
-
-#gender:hover{
-  -webkit-filter: blur(5px);
-}
 #headshot {
 	display: block;
 	width: 25%;
