@@ -17,12 +17,12 @@ h1 {
 }
 
 .pic{
-	width: 65%;
+	width: 55%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	position: relative;	
 	display: block;
-	left: 18%;
+	left: 23%;
 }
 
 .pic:hover {
