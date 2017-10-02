@@ -12,24 +12,29 @@ h1 {
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-bottom-color: black;
-	padding-top:5%;
+	padding:2%;
 	
 }
 
-.pic{
-	width: 55%;
-	padding-top: 50px;
-	padding-bottom: 70px;
+.screen_grab{
+	width: 30%;
+	margin-bottom: 160px;
 	position: relative;	
 	display: block;
+	left: 35%;
+}
+.screen_grab:hover {
+  -webkit-filter: blur(5px);
+}
+.photo{
+	width: 55%;
+	position: relative;	
 	left: 23%;
 }
 
-.pic:hover {
+.photo:hover {
   -webkit-filter: blur(5px);
 }
-
-
 
 
 #headshot {
@@ -37,7 +42,7 @@ h1 {
 	width: 30%;
 	position: absolute;
 	left: 12%;	
-	top: 45%;
+	top: 35%;
 	
 }
 
@@ -48,23 +53,20 @@ p{
 	position: relative;
 	display: block;
 	text-align: center;
-	padding-top: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
 
 }
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow-x: scroll;
-    right: 5%;
+    margin-bottom: 170px;
+    
+
 }
 
 li {
     float: right;
     display: block;
-    padding-right: 50px;
+    padding-right: 30px;
+
 }
 
 li a {
@@ -72,15 +74,25 @@ li a {
     color: black;
     font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
     text-align: center;
-    padding: 14px ;
+    padding: 9px ;
     text-decoration: none;
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    border-style: solid;
-    border-width: 2px;
+
 }
 
+li a:hover {
+	color: purple;
+    border-style: solid;
+    border-width: 0.5px;
+}
+#button{
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+}
 #contact_info {
 	color: black;
 	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
@@ -88,17 +100,9 @@ li a:hover {
 	word-spacing: 70px;
 	font-size: 13px;
 	top: 95.5%;
-	left: 2%;
+	right: 2%;
 }		
-#button{
-    display: block;
-    border-style: solid;
-    border-width: 2px;
-    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 #body {
 	color: black;
 	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
@@ -108,9 +112,29 @@ li a:hover {
 	text-align: center;
 	top: 50%;
 	left: 40%;
-	padding-left: 120px;
-	padding-right: 120px;
-	/*overflow-y: scroll;	*/
+	margin-left: 120px;
+	margin-right: 120px;
+	
+	text-decoration: none;
+}
+#link{
+	color: black;
+	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+	top:50px;
+	margin-left: 20%;
+	text-decoration: none;
+	border-style: solid;
+    border-width: 0.5px;
+    padding: 9px;
+}
+#link:hover{
+	color: purple;
+	border-style: solid;
+    border-width: 2px;
+    padding: 9px;
 }
 
 
