@@ -26,15 +26,27 @@ h1 {
 .screen_grab:hover {
   -webkit-filter: blur(5px);
 }
-.photo{
-	width: 55%;
+.album{
+	width: 50%;
 	position: relative;	
-	left: 23%;
+	left: 4%;
 }
 
-.photo:hover {
-  -webkit-filter: blur(5px);
+.album:hover {
+  	-webkit-filter: blur(5px);
+  	left: 4%;
+	margin: 5px;
+	position: relative;	
 }
+.photo{
+	width: 30%;
+	left: 4%;
+	margin: 5px;
+	position: relative;	
+	
+}
+
+
 
 
 #headshot {
@@ -74,24 +86,22 @@ li a {
     color: black;
     font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
     text-align: center;
-    padding: 9px ;
+    padding-right: 20px;
     text-decoration: none;
 
 }
 
 li a:hover {
 	color: purple;
-    border-style: solid;
-    border-width: 0.5px;
+	font-size: 20;
+    
 }
 #button{
     display: block;
-    border-style: solid;
-    border-width: 2px;
     font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
     text-align: center;
-    padding: 9px;
     text-decoration: none;
+    color: purple;
 }
 #contact_info {
 	color: black;
