@@ -2,10 +2,15 @@ body{
 	background-color: white;
 
 }
-
+@font-face {
+   font-family: "Armonioso-trial"; 
+   src: url('Armonioso-trial.otf');
+	font-family: LowCasatLight_PERSONAL_USE; 
+   src: url('LowCasatLight_PERSONAL_USE.ttf');
+} 	
 h1 {
 	color: black;
-	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-family: LowCasatLight_PERSONAL_USE;
 	text-align: center;
 	font-weight: normal;
 	font-size: 60px;
@@ -13,8 +18,8 @@ h1 {
 	border-width: 1px;
 	border-bottom-color: black;
 	padding:2%;
-	
 }
+
 
 .screen_grab{
 	width: 30%;
@@ -24,29 +29,26 @@ h1 {
 	left: 35%;
 }
 .screen_grab:hover {
-  -webkit-filter: blur(5px);
+  width: 50%;
+  left: 25%;
 }
 .album{
 	width: 50%;
 	position: relative;	
+	margin: 5px;
 	left: 4%;
 }
 
 .album:hover {
-  	-webkit-filter: blur(5px);
-  	left: 4%;
-	margin: 5px;
-	position: relative;	
+  	-webkit-filter: grayscale(95%);
+  	
 }
 .photo{
 	width: 30%;
 	left: 4%;
 	margin: 5px;
 	position: relative;	
-	
 }
-
-
 
 
 #headshot {
@@ -60,7 +62,7 @@ h1 {
 
 p{
 	color: black;
-	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;	
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 	font-size: 25px;
 	position: relative;
 	display: block;
@@ -84,7 +86,7 @@ li {
 li a {
     display: block;
     color: black;
-    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     text-align: center;
     padding-right: 20px;
     text-decoration: none;
@@ -98,14 +100,14 @@ li a:hover {
 }
 #button{
     display: block;
-    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     text-align: center;
     text-decoration: none;
     color: purple;
 }
 #contact_info {
 	color: black;
-	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 	position: fixed;
 	word-spacing: 70px;
 	font-size: 13px;
@@ -115,7 +117,7 @@ li a:hover {
 
 #body {
 	color: black;
-	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 	font-size: 20px;
 	position: absolute;
 	display: block;
@@ -129,7 +131,7 @@ li a:hover {
 }
 #link{
 	color: black;
-	font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 	font-size: 30px;
 	position: relative;
 	text-align: center;
@@ -138,12 +140,13 @@ li a:hover {
 	text-decoration: none;
 	border-style: solid;
     border-width: 0.5px;
+    border-color: #D7D4D4;
     padding: 9px;
 }
 #link:hover{
 	color: purple;
 	border-style: solid;
-    border-width: 2px;
+    
     padding: 9px;
 }
 
