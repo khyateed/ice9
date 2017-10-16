@@ -4,9 +4,9 @@ body{
 }
 @font-face {
    font-family: "Armonioso-trial"; 
-   src: url('Armonioso-trial.otf');
+   src: url('fonts/Armonioso-trial.otf');
 	font-family: LowCasatLight_PERSONAL_USE; 
-   src: url('LowCasatLight_PERSONAL_USE.ttf');
+   src: url('fonts/LowCasatLight_PERSONAL_USE.ttf');
 } 	
 h1 {
 	color: black;
@@ -19,6 +19,7 @@ h1 {
 	border-bottom-color: black;
 	padding:2%;
 }
+
 
 
 .screen_grab{
@@ -36,7 +37,7 @@ h1 {
 	width: 50%;
 	position: relative;	
 	margin: 5px;
-	left: 4%;
+	left: 5%;
 }
 
 .album:hover {
@@ -45,7 +46,7 @@ h1 {
 }
 .photo{
 	width: 30%;
-	left: 4%;
+	left: 5%;
 	margin: 5px;
 	position: relative;	
 }
@@ -130,7 +131,7 @@ li a:hover {
 }
 #link{
 	color: black;
-	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	font-family: LowCasatLight_PERSONAL_USE;
 	font-size: 30px;
 	position: relative;
 	text-align: center;
@@ -139,21 +140,15 @@ li a:hover {
 	text-decoration: none;
 	border-style: solid;
     border-width: 0.5px;
-    border-color: #D7D4D4;
+    border-color: black;
     padding: 9px;
+    box-shadow: 3px 3px 10px #888888;
 }
 #link:hover{
-	color: purple;
-	border-style: solid;
-    
-    padding: 9px;
+	font-size: 40px;
+	top: 48px;
+	margin-left: 18%;
+	
 }
-#panel {
-	background: blue;
-	position: fixed;
-	top: 0;
-	left: 0%;
-	width: 30%;
-	height: 100%;
-}
+
 
