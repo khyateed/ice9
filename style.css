@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(90deg, #CBCBCB 5%, white 5%);
+	background: linear-gradient(90deg, #e2e2e2 5%, white 5%);
 
 }
 @font-face {
@@ -28,21 +28,25 @@ h1 {
 	position: relative;	
 	display: block;
 	left: 35%;
+	transition: .3s;
 }
 .screen_grab:hover {
   width: 60%;
   left: 20%;
+  transition: .3s;
 }
 .album{
 	width: 50%;
 	position: relative;	
 	margin: 5px;
 	left: 5%;
+
 }
 
 .album:hover {
   	-webkit-filter: grayscale(95%);
-  	
+
+
 }
 .photo{
 	width: 30%;
@@ -70,36 +74,42 @@ p{
 	text-align: center;
 
 }
-ul{
+.nav{
     list-style-type: none;
     margin-bottom: 170px;
     
 
 }
 
-li {
+.nav li {
     float: right;
     display: block;
-    padding-right: 30px;
 
 }
 
-li a {
+.nav li a {
     display: block;
     color: black;
     font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     text-align: center;
-    padding-right: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     text-decoration: none;
+    transition: 0.3s;
 
 }
 
-li a:hover {
+.nav li a:hover {
 	color: purple;
 	font-size: 20;
-    
+	margin-right: 15px;
+    margin-left: 15px;
+    transition: 0.3s;
+
 }
-#button{
+.nav #pressed{
     display: block;
     font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     text-align: center;
@@ -129,26 +139,25 @@ li a:hover {
 	margin-right: 80px;
 	text-decoration: none;
 }
-#link{
+#button{
 	color: black;
 	font-family: LowCasatLight_PERSONAL_USE;
 	font-size: 30px;
 	position: relative;
-	text-align: center;
-	top:50px;
 	margin-left: 20%;
+	top: 30px;
+	text-align: center;
 	text-decoration: none;
 	border-style: solid;
-    border-width: 0.5px;
+    border-width: 2px;
     border-color: black;
     padding: 9px;
-    box-shadow: 3px 3px 10px #888888;
+    transition: .3s;
 }
-#link:hover{
-	font-size: 40px;
-	top: 48px;
-	margin-left: 18%;
-	
+#button:hover{
+	transition: .3s;
+	box-shadow: 5px 5px 8px #888888;
+
 }
 
 
