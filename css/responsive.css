@@ -1,0 +1,121 @@
+
+
+@media screen and (min-width:650px ){      
+	.text{
+		font-size: 17px;
+		top: 73%;
+
+	}
+	.nav{
+	    list-style-type: none;
+	    text-align: center;
+	    position: static;
+	}
+	.nav li {
+	    display: inline-block;
+	}
+	.nav li a {
+		padding: 10px 10px;
+		margin:0;
+		font-size: 15px;
+	}
+	h1{
+		position: static;
+		background: linear-gradient(90deg, #e2e2e2 5%, white 5%);
+	}
+	#headshot {
+		top: 28%;
+	}
+	.gallery{
+		top: 10%;
+		width: 90%;
+		left: 4%;
+		bottom:5%;
+	}
+
+	.album{
+		width: 80%;
+		margin: 1% 0 1% 0;
+	}
+
+	.photo{
+		width: 48%;
+	}
+	.accordion{
+		top: 7%;
+		position: relative;
+		margin-bottom: 5%;
+	}	
+	.description{
+		top: 5%;
+	}
+	.zine{
+		top: 10%;
+	}
+
+	
+}
+
+@media screen and (min-width: 1000px){  
+
+	h1{
+		background:white;
+		text-align: right;
+		right: 5%;
+		padding-top:2%;
+		position: absolute;
+		width: 40%
+	}
+	.nav{
+		background: white;
+	    list-style-type: none;
+	    text-align: left;
+	    width: 20%;
+	    top: 15%;
+	    left: 5%;
+	    position: relative;
+	    z-index: 2;
+	}
+	.nav li {
+	    display: block;
+	    border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-color: purple;
+	}
+	.text{
+		font-size: 20px;
+		top: 25%;
+		width: 60%;
+		color: white;
+		opacity: .65;
+	}
+	#headshot {
+		top: 23%;
+	}
+	.gallery{
+		top: 0%;
+		width: 85%;
+		text-align: right;
+		left: 10%;
+		margin-bottom: 5%;
+	}
+	.album{
+		width: 50%;
+	}
+	.photo{
+		width: 38%;
+	}
+	.accordion{
+		width: 60%;
+		left: 37%;
+		top: 0%;
+		margin-bottom: 5%;
+	}
+	.description{
+		width: 70%;
+		left: 30%;
+		top: 0%;
+	}
+
+
+}
