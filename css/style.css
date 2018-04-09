@@ -35,18 +35,19 @@ h1 {
 #headshot {
 	display: block;
 	width: 100%;
-	top: 45%;
+	top: 40%;
 	position: absolute;
 }
 .text {
-	color: #333;
+	color: #ddd;
 	font-family:  "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", Futura, Futura-Medium, "Futura Medium",sans-serif;
-	font-size: 15px;
-	top: 75%;
-	left: 7%;
-	margin-bottom: 7%;
+	font-size: 13px;
+	top: 47%;
+	left: 5%;
+	opacity: .75;
+	margin-bottom: 17%;
 	width: 90%;
-	position: relative;
+	position: absolute;
 	text-align: left;
 	text-decoration: none;
 }
@@ -127,6 +128,7 @@ footer {
 	position: relative;
 	text-align: center;
 	top: 20%;
+	margin-bottom: 10%;
 	}
 .album{
 	width: 100%;
@@ -146,6 +148,7 @@ footer {
 .accordion{
 	top: 25%;
 	position: relative;
+	margin-bottom: 10%
 }
 
 .title {

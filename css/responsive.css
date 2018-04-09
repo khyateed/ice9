@@ -3,7 +3,8 @@
 @media screen and (min-width:650px ){      
 	.text{
 		font-size: 17px;
-		top: 73%;
+		top: 45%;
+
 
 	}
 	.nav{
@@ -35,7 +36,6 @@
 
 	.album{
 		width: 80%;
-		margin: 1% 0 1% 0;
 	}
 
 	.photo{
@@ -84,10 +84,10 @@
 	}
 	.text{
 		font-size: 20px;
-		top: 25%;
-		width: 60%;
-		color: white;
-		opacity: .65;
+		top: 42%;
+		left: 27%;
+		width: 65%;
+
 	}
 	#headshot {
 		top: 23%;
@@ -100,10 +100,10 @@
 		margin-bottom: 5%;
 	}
 	.album{
-		width: 50%;
+		width: 59%;
 	}
 	.photo{
-		width: 38%;
+		width: 40%;
 	}
 	.accordion{
 		width: 60%;
